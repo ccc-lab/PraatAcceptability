@@ -1,0 +1,59 @@
+"ooTextFile"
+"ExperimentMFC 6"
+blankWhilePlaying? <yes>
+stimuliAreSounds? <yes>
+stimulusFileNameHead = "Sounds/"
+stimulusFileNameTail = ".wav"
+stimulusCarrierBefore = ""
+stimulusCarrierAfter = ""
+stimulusInitialSilenceDuration = 0.5 seconds
+stimulusMedialSilenceDuration = 0
+stimulusFinalSilenceDuration = 0.5 seconds
+numberOfDifferentStimuli = 70
+    "PracticeGood1" """PracticeBad1" """PracticeGood2" """PracticeBad2" """287" """VSO15" """340" """SVOAgree23" """315" """SVOAgree24" """188" """VOS20" """342" """VOS17" """VSOAgree15" """SVO11" """VOSAgree10" """SOV1" """VSOAgree16" """OSV21" """232" """OVSAgree19" """OVS6" """OSV23" """VOSAgree11" """288" """OSV24" """VOS19" """SOVAgree6" """261" """OSVAgree3" """VSO16" """SOVAgree8" """SVO12" """VSOAgree14" """341" """OSVAgree2" """OVS5" """SOVAgree7" """SOV2" """286" """VOSAgree12" """189" """VOSAgree9" """OVS7" """VSO13" """OVSAgree18" """233" """OVSAgree17" """SVO10" """259" """VSOAgree13" """SVO9" """OVSAgree20" """VSO14" """OSVAgree1" """187" """OSV22" """SVOAgree22" """314" """VOS18" """OSVAgree4" """313" """260" """SOV4" """SVOAgree21" """OVS8" """SOVAgree5" """234" """SOV3" ""
+numberOfReplicationsPerStimulus = 1
+breakAfterEvery = 0
+randomize = <CyclicNonRandom>
+startText = "You will be presented with some possible sentences of Malayalam. 
+For each sentence, rate it on a scale from 1 (very bad) to 7 (very good) 
+based on how it sounds to you as a native speaker of the language. 
+
+Some things to keep in mind: 
+
+-Give your first reaction. Don’t try to analyze the sentence. 
+
+-There are no correct answers. We want to know how the sentence sounds to YOU.
+ 
+Just be sure to rate each sentence on its own, 
+regardless of how simple or complicated it seems. 
+
+Ready? Click to begin."
+runText = "
+
+
+
+
+
+Rate the sentence you just heard on a scale from 1 to 7:
+ 
+
+
+(very bad)..................................................................................(very good)"
+pauseText = "Click when you are ready to hear the next sound."
+endText = "The experiment has finished. 
+Thank you so much for your participation!"
+maximumNumberOfReplays = 0
+replayButton = 0 0 0 0 "" ""
+okButton = 0 0 0 0 "" ""
+oopsButton = 0 0 0 0 "" ""
+responsesAreSounds? <no> "" "" "" "" 0 0 0
+numberOfDifferentResponses = 7
+    0.15 0.25 0.10 0.25 "1" 30 "" "1"
+    0.25 0.35 0.10 0.25 "2" 30 "" "2"
+    0.35 0.45 0.10 0.25 "3" 30 "" "3"
+    0.45 0.55 0.10 0.25 "4" 30 "" "4"
+    0.55 0.65 0.10 0.25 "5" 30 "" "5"
+    0.65 0.75 0.10 0.25 "6" 30 "" "6"
+    0.75 0.85 0.10 0.25 "7" 30 "" "7"
+numberOfGoodnessCategories = 0
+
